@@ -1,5 +1,4 @@
-/*I'm sick and going to call the night early. This isn't done yet*/
-
+/* I'm lost. */
 
 var studentData = [
   {
@@ -20,9 +19,30 @@ var studentData = [
 ];
 
 function enrollInSummerSchool(students) {
-  studentData.forEach(function(students, status) {
-    for 
-      if status == 'Withdrawn'; return /*I stopped here */
+  for studentData.forEach(function(students, status) {
+    for (var studentData) {
+      if status == 'Current student' {
+        return {
+          name: studentData.name,
+          status: 'In Summer school',
+          course: studentData.course
+          };
+        }
+        else status == 'Withdrawn' {
+         return {
+           name: studentData.name,
+           status: 'In Summer school',
+           course: studentData.course
+         }
+        if else status == 'On leave' {
+          return {
+           name: studentData.name,
+           status: 'In Summer school',
+           course: studentData.course
+         }
+       };
+    };
+          
 }
 
 
