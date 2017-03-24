@@ -18,7 +18,7 @@ makeToDos.generateHtml(owner, toDos);
 
 //owner = string of the name of the owner of the to do list
 //toDo is an array of strings with stuff that needs to be done
-//needs method called .generateHtml which should return a string represending a <ul>
+//needs method called .generateHtml which should return a string representing a <ul>
 
 /* From here down, you are not expected to
    understand.... for now :)
