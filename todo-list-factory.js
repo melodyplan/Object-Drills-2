@@ -5,8 +5,12 @@ function makeToDos(owner, toDos) {
    }
 };
 
-var generate.Html = {
+function generate.Html() = {
   //need to figure out how to put toDos into lists? maybe ```'<ul><li>' + toDos + '</li>', i++``` or something? 
+  var addList = document.createElement("ul");
+  var newToDo = document.createToDo("toDo");
+  addList.appendChild(createToDo);
+  //God. I need an HTML thing don't I to use 'document'?? 
 }
 
 makeToDos.generateHtml(owner, toDos); 
