@@ -19,15 +19,38 @@ var expectedKeys = [
   'id', 'name', 'age', 'city'
 ];
 
-function validateKeys(object, expectedKeys) {  
- for (Object.validateKeys(expectedKeys).forEach(objectA, objectB){ 
-   return true; 
+var contains = function validateKeys(object, expectedKeys) {
+  var findexpectedKeys = 'id', 'name', 'age', 'city';
+  var indexOf;
+ if (objectA.prototype.indexOf === 'function') {
+     //Now what
+   indexOf = function(expectedKeys) {
+     var = i = -1, index = -1;
+     
+     for (i=0; i < this.length; i++) {
+       var item = this[i];
+       //good lord
+       if ((item !== item) || item === NaN) {
+         index = i;
+         break;
+       }
+     }
+     
+     return index;
+   };
  }
- else  {
-   return false; 
- }
+ return indexOf.call(this, expectedKeys) > -1;
+};
+   //( there's an index here there has to also be a container of some kind <-- these are notes to myself before I wrote shit)
+    // { 
+  // return true; 
+// }
+// else  {
+  // return false; 
+// }
 
-}
+//}
+     
 
 
 /* From here down, you are not expected to 
